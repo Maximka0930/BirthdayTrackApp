@@ -35,14 +35,14 @@ BirthdayTrack - это полноценное SPA-приложение для у
 ### Backend
 
 1. **Клонируйте репозиторий**
-   ```bash
-   git clone https://github.com/yourusername/BirthdayTrack.git
-   cd BirthdayTrack
-   ```
-2. **Установите dotnet-ef (если еще не установлен)**
-  ```bash
-   dotnet tool install --global dotnet-ef
-  ```
+```bash
+ git clone https://github.com/yourusername/BirthdayTrack.git
+ cd BirthdayTrack
+```
+3. **Установите dotnet-ef (если еще не установлен)**
+```bash
+ dotnet tool install --global dotnet-ef
+```
 3. Настройте базу данных
  - Убедитесь, что у вас установлен PostgreSQL
  - Отредактируйте строку подключения в appsettings.json
