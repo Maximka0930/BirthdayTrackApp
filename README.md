@@ -30,7 +30,7 @@ BirthdayTrack - это полноценное SPA-приложение для у
 - [.NET 6.0+](https://dotnet.microsoft.com/download)
 - [Node.js 16+](https://nodejs.org/)
 - [PostgreSQL](https://www.postgresql.org/download/)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/) или [VS Code](https://code.visualstudio.com/)
+- [Visual Studio 2022](https://visualstudio.microsoft.com/) и [VS Code](https://code.visualstudio.com/)
 
 ### Backend
 
@@ -41,14 +41,14 @@ BirthdayTrack - это полноценное SPA-приложение для у
    ```
 2. **Установите dotnet-ef (если еще не установлен)**
   ```bash
-dotnet tool install --global dotnet-ef
+   dotnet tool install --global dotnet-ef
   ```
 3. Настройте базу данных
  - Убедитесь, что у вас установлен PostgreSQL
  - Отредактируйте строку подключения в appsettings.json
  - Выполните миграции:
   ```bash
-  dotnet ef database update -s ./BirthdayTrack.API -p ./BirthdayTrack.Data/
+   dotnet ef database update -s ./BirthdayTrack.API -p ./BirthdayTrack.Data/
   ```
 4. Запустите API
    ```bash
@@ -59,30 +59,30 @@ dotnet tool install --global dotnet-ef
 
 1. Перейдите в папку frontend
   ```bash
-  cd ./Frontend/birthdaytrack/
+   cd ./Frontend/birthdaytrack/
   ```
 2. Установите зависимости
   ```bash
-  npm install
+   npm install
   ```
 3. Запустите приложение
   ```bash
-  npm run dev
+   npm run dev
   ```
 
 4.Откройте веб-приложение в браузере
   ```bash
-  http://localhost:3000
+   http://localhost:3000
   ```
 ### Настройка Telegram бота для уведомлений
  - Создайте бота через @BotFather
  - Получите токен бота
  - Добавьте токен в appsettings.json:
 ```json
-  "TelegramBot": {
-  "Token": "YOUR_BOT_TOKEN",
-  "NotificationTime": "09:00"
-}
+   "TelegramBot": {
+   "Token": "YOUR_BOT_TOKEN",
+   "NotificationTime": "09:00"
+ }
 ```
 
 📌 **Особенности реализации**
