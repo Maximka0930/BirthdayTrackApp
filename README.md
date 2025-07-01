@@ -51,9 +51,9 @@ BirthdayTrack - это полноценное SPA-приложение для у
    dotnet ef database update -s ./BirthdayTrack.API -p ./BirthdayTrack.Data/
   ```
 4. Запустите API
-   ```bash
+```bash
    dotnet run --project ./BirthdayTrack.API/
-   ```
+```
 
 ### Frontend
 
