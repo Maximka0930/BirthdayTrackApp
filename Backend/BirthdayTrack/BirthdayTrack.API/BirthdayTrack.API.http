@@ -1,0 +1,6 @@
+@BirthdayTrack.API_HostAddress = http://localhost:5115
+
+GET {{BirthdayTrack.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

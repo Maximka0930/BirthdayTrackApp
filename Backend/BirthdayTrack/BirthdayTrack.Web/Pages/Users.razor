@@ -1,0 +1,43 @@
+﻿@page "/users"
+@using BirthdayTrack.Core.Contracts
+@inject HttpClient Http
+
+<h3>Users List</h3>
+
+@if (users == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Patronymic</th>
+                <th>Birth Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in users)
+            {
+                <tr>
+                    <td>@user.Name</td>
+                    <td>@user.SurName</td>
+                    <td>@(user.Patronymic ?? "-")</td>
+                    <td>@user.DateOfBirth.ToString("dd.MM.yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<UsersResponse>? users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await Http.GetFromJsonAsync<List<UsersResponse>>("users");
+    }
+}

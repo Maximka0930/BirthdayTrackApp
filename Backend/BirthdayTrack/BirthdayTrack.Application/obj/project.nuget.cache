@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "pIvommki/o8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nikol\\source\\repos\\BirthdayApp\\Backend\\BirthdayTrack\\BirthdayTrack.Application\\BirthdayTrack.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikol\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.6\\microsoft.extensions.configuration.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\nikol\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "C:\\Users\\nikol\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.6\\microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\nikol\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.6\\microsoft.extensions.diagnostics.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\nikol\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.6\\microsoft.extensions.fileproviders.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\nikol\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\9.0.6\\microsoft.extensions.hosting.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\nikol\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.6\\microsoft.extensions.logging.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\nikol\\.nuget\\packages\\microsoft.extensions.options\\9.0.6\\microsoft.extensions.options.9.0.6.nupkg.sha512",
+    "C:\\Users\\nikol\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\nikol\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.6\\microsoft.extensions.primitives.9.0.6.nupkg.sha512",
+    "C:\\Users\\nikol\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.6\\system.diagnostics.diagnosticsource.9.0.6.nupkg.sha512",
+    "C:\\Users\\nikol\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
+    "C:\\Users\\nikol\\.nuget\\packages\\telegram.bot\\22.5.1\\telegram.bot.22.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+﻿version: "3.8"
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: "usersdb"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "secure_password_here"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+volumes:
+  postgres-data:
